@@ -83,3 +83,20 @@ span {
 .display-info-image {
   width: 40rem;
 }
+
+.forecast {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.forecast-day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;justify-content: space-between;
+  border: 1px solid rgba(131, 129, 129, 0.5);
+  padding: 1.5em;
+  border-radius:30px;
+  background-color: rgba(241, 240, 240, 0.5);
+}
